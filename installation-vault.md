@@ -188,7 +188,7 @@ fi
 
 # === Optional: Remove snapshots older than 7 days ===
 find "$SNAPSHOT_DIR" -type f -name "*.snap" -mtime +7 -exec rm {} \;
-
+```
 
 Automate with Cron
 To schedule the snapshot daily at 2:00 AM, edit the root crontab:
