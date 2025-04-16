@@ -98,6 +98,7 @@ Disaster recovery involves continuous data replication (streaming) and aims for 
 ```bash
 vault operator raft snapshot save /path/to/snapshot.snap
 vault operator raft snapshot restore /path/to/snapshot.snap
+```
 
 ## References
 
