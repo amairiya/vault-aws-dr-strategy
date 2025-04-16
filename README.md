@@ -100,6 +100,14 @@ vault operator raft snapshot save /path/to/snapshot.snap
 vault operator raft snapshot restore /path/to/snapshot.snap
 ```
 
+####  Testing & Validation
+•	Snapshots are restored in a staging environment at least monthly
+•	Post-restore checklist includes:
+•	Vault is accessible
+•	Secrets integrity validated
+•	Audit trail continuity
+
+
 ## References
 
 - [Vault Raft Cluster High Availability Test in AWS | TeKanAid](https://www.tekanaid.com/posts/vault-raft-cluster-high-availability-test-in-aws)
