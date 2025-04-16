@@ -33,9 +33,11 @@ Disaster recovery involves continuous data replication (streaming) and aims for 
 | Multi-Site (Active-Active)  | Near-zero       | Mission-critical, always-on workloads     | 💲💲💲💲      |
 
 
-Photo 1 
+![alt text for screen readers](photo-1.png "Text to show on mouseover").
 
-Photo 2 
+
+![alt text for screen readers](photo-2.png "Text to show on mouseover").
+
 
 
 #### Multi-AZ Cluster with Raft Storage
