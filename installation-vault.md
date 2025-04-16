@@ -16,6 +16,8 @@ This solution leverages Vault's built-in Raft storage for high availability and 
 - Eliminates the need for additional networked storage requests
 - Simplifies troubleshooting and speeds up recovery time
 
+![alt text for screen readers](photo-4.png "Text to show on mouseover").
+
 ---
 
 ## 🚀 Installation Guide
@@ -126,7 +128,7 @@ curl http://<vault-ip>:8200/v1/sys/health
 ## Automatic snapshots with integrated storage
 Vault's built-in automated snapshot mechanism
 
-photo-4
+![alt text for screen readers](photo-5.png "Text to show on mouseover").
 
 Recommendation:
 ✅ Use EBS Snapshots for automated, consistent, and fast backups of Vault's Raft storage (since data is on local disk).
