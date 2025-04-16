@@ -16,7 +16,7 @@ This solution leverages Vault's built-in Raft storage for high availability and 
 - Eliminates the need for additional networked storage requests
 - Simplifies troubleshooting and speeds up recovery time
 
-![alt text for screen readers](photo-4.png "Text to show on mouseover").
+![alt text for screen readers](photo-3.png "Text to show on mouseover").
 
 ---
 
@@ -127,6 +127,7 @@ curl http://<vault-ip>:8200/v1/sys/health
 
 ## Automatic snapshots with integrated storage
 Vault's built-in automated snapshot mechanism
+![alt text for screen readers](photo-4.png "Text to show on mouseover").
 
 ![alt text for screen readers](photo-5.png "Text to show on mouseover").
 
